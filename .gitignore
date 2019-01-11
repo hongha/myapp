@@ -24,5 +24,15 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-.idea
-.mysql-data
+/.mysql-data
+/.idea
+/vendor
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+/public/uploads
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
