@@ -15,6 +15,7 @@ module Swagger::ApiDocs
       key :basePath, '/'
       key :consumes, ['application/json']
       key :produces, ['application/json']
+      key :host, 'localhost:3000'
 
       extend Swagger::Parameters
     end
